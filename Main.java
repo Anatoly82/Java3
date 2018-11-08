@@ -1,5 +1,6 @@
-package Java2.lesson1;
-
+﻿package Java2.lesson1;
+/*Anatoly Yakovlev
+*/
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -44,4 +45,4 @@ public class Main {
     public static <T> ArrayList<T> toArrayList(T[] arr) {
         return new ArrayList<T>(Arrays.asList(arr));
     }
-}
+} 

@@ -1,5 +1,6 @@
 package Java2.lesson1;
-
+/*Anatoly Yakovlev
+*/
 import java.util.ArrayList;
 import java.util.Arrays;
 public class Box<T extends Fruit> {
@@ -32,4 +33,4 @@ public class Box<T extends Fruit> {
         box.items.addAll(this.items);
         clear();
     }
-}
+} 

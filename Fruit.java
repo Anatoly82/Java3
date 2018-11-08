@@ -1,5 +1,6 @@
 package Java2.lesson1;
-
+/*Anatoly Yakovlev
+*/
 public abstract class Fruit {
     protected float weight;
     public Fruit(float weight) {
@@ -8,4 +9,4 @@ public abstract class Fruit {
     public float getWeight() {
         return weight;
     }
-}
+} 
